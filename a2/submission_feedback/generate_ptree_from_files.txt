@@ -1,0 +1,72 @@
+.FFFF..FF.F........
+======================================================================
+FAIL: test_treegen_in_tests_child_PID_not_found (__main__.TestTreeGeneration)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/stud/cslec/209/marking/grading/a2/marking_scripts/test_helpers.py", line 193, in _t
+    self.assertEqual(returncode, expected_status)
+AssertionError: 0 != 1
+
+======================================================================
+FAIL: test_treegen_in_tests_child_PID_not_found_build_continues (__main__.TestTreeGeneration)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/stud/cslec/209/marking/grading/a2/marking_scripts/test_helpers.py", line 190, in _t
+    self.assertEqual(stdout, expected_stdout)
+AssertionError: '0' != '1'
+- 0
++ 1
+
+
+======================================================================
+FAIL: test_treegen_in_tests_child_exe_not_found (__main__.TestTreeGeneration)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/stud/cslec/209/marking/grading/a2/marking_scripts/test_helpers.py", line 193, in _t
+    self.assertEqual(returncode, expected_status)
+AssertionError: 0 != 1
+
+======================================================================
+FAIL: test_treegen_in_tests_child_exe_not_found_build_continues (__main__.TestTreeGeneration)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/stud/cslec/209/marking/grading/a2/marking_scripts/test_helpers.py", line 190, in _t
+    self.assertEqual(stdout, expected_stdout)
+AssertionError: '0' != '1'
+- 0
++ 1
+
+
+======================================================================
+FAIL: test_treegen_in_tests_cmdline_empty (__main__.TestTreeGeneration)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/stud/cslec/209/marking/grading/a2/marking_scripts/test_helpers.py", line 190, in _t
+    self.assertEqual(stdout, expected_stdout)
+AssertionError: '' != '1'
++ 1
+
+======================================================================
+FAIL: test_treegen_in_tests_cmdline_not_exist (__main__.TestTreeGeneration)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/stud/cslec/209/marking/grading/a2/marking_scripts/test_helpers.py", line 190, in _t
+    self.assertEqual(stdout, expected_stdout)
+AssertionError: '0' != '1'
+- 0
++ 1
+
+
+======================================================================
+FAIL: test_treegen_in_tests_malloc_fails (__main__.TestTreeGeneration)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/stud/cslec/209/marking/grading/a2/marking_scripts/test_helpers.py", line 190, in _t
+    self.assertEqual(stdout, expected_stdout)
+AssertionError: '' != '1'
++ 1
+
+----------------------------------------------------------------------
+Ran 19 tests in 1.480s
+
+FAILED (failures=7)

@@ -1,0 +1,35 @@
+.FFF
+======================================================================
+FAIL: test_treegen_in_proc_multiple_children_multiple_grandchildren (__main__.TestTreeGenerationProc)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/stud/cslec/209/marking/grading/a2/marking_scripts/test_helpers.py", line 184, in _t
+    self.assertEqual(stderr, expected_stderr)
+AssertionError: 'File 28104: exe or cmd file is not regular\n' != ''
+- File 28104: exe or cmd file is not regular
+
+
+======================================================================
+FAIL: test_treegen_in_proc_no_children (__main__.TestTreeGenerationProc)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/stud/cslec/209/marking/grading/a2/marking_scripts/test_helpers.py", line 184, in _t
+    self.assertEqual(stderr, expected_stderr)
+AssertionError: 'File 28102: exe or cmd file is not regular\n' != ''
+- File 28102: exe or cmd file is not regular
+
+
+======================================================================
+FAIL: test_treegen_in_proc_one_child (__main__.TestTreeGenerationProc)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/stud/cslec/209/marking/grading/a2/marking_scripts/test_helpers.py", line 184, in _t
+    self.assertEqual(stderr, expected_stderr)
+AssertionError: 'File 28103: exe or cmd file is not regular\n' != ''
+- File 28103: exe or cmd file is not regular
+
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.476s
+
+FAILED (failures=3)

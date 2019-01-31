@@ -1,0 +1,18 @@
+commandline (7 / 9)
+  failed test_cmdline_pid_and_d_valid
+
+print_ptree (9 / 9)
+
+
+generate_from_files (8 / 10)
+  failed test_treegen_in_tests_child_PID_not_found_build_continues
+  failed test_treegen_in_tests_child_exe_not_found_build_continues
+  failed test_treegen_in_tests_cmdline_empty
+  failed test_treegen_in_tests_cmdline_not_exist
+  failed test_treegen_in_tests_malloc_fails
+
+generate_from_proc (0 / 2)
+  failed test_treegen_in_proc_multiple_children_multiple_grandchildren
+  failed test_treegen_in_proc_no_children
+  failed test_treegen_in_proc_one_child
+24.00 / 30

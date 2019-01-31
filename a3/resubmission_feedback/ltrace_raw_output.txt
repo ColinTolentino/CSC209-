@@ -1,0 +1,792 @@
+15778 __libc_start_main(0x400ac6, 2, 0x7ffe2951bef8, 0x4011c0 <unfinished ...>
+15778   signal(SIGPIPE, 0x1)                     = 0
+15778   strspn("221", "1234567890")              = 3
+15778   strlen("221")                            = 3
+15778   strtol(0x7ffe2951dd78, 0, 10, 3448)      = 221
+15778   pipe(0x7ffe2951bdc0)                     = 0
+15778   fork()                                   = 15779
+15779   <... fork resumed> )                     = 0
+15778   close(3 <unfinished ...>
+15779   close(4 <unfinished ...>
+15778   <... close resumed> )                    = 0
+15778   write(4, "\002", 4 <unfinished ...>
+15779   <... close resumed> )                    = 0
+15779   sqrt(4, 0, 0, 0x7f59d08288f0 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15779   <... sqrt resumed> )                     = 2
+15778   write(4, "\003", 4 <unfinished ...>
+15779   pipe(0x7ffe2951bdd0 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15779   <... pipe resumed> )                     = 0
+15778   write(4, "\004", 4 <unfinished ...>
+15779   fork( <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "\005", 4)                      = 4
+15779   <... fork resumed> )                     = 15780
+15778   write(4, "\006", 4 <unfinished ...>
+15780   <... fork resumed> )                     = 0
+15779   close(4 <unfinished ...>
+15780   close(5 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "\a", 4 <unfinished ...>
+15779   <... close resumed> )                    = 0
+15779   read(3 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "\b", 4)                        = 4
+15778   write(4, "\t", 4 <unfinished ...>
+15780   <... close resumed> )                    = 0
+15780   read(4 <unfinished ...>
+15779   <... read resumed> , "\002", 4)          = 4
+15778   <... write resumed> )                    = 4
+15778   write(4, "\n", 4 <unfinished ...>
+15779   read(3 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15779   <... read resumed> , "\003", 4)          = 4
+15778   write(4, "\v", 4 <unfinished ...>
+15779   write(5, "\003", 4 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "\f", 4 <unfinished ...>
+15780   <... read resumed> , "\003", 4)          = 4
+15780   sqrt(4, 0x7ffe2951bd8c, 4, 0x7f59d0828260 <unfinished ...>
+15779   <... write resumed> )                    = 4
+15778   <... write resumed> )                    = 4
+15780   <... sqrt resumed> )                     = 3
+15778   write(4, "\r", 4 <unfinished ...>
+15780   pipe(0x7ffe2951bdd0 <unfinished ...>
+15779   read(3 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "\016", 4 <unfinished ...>
+15780   <... pipe resumed> )                     = 0
+15780   fork( <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "\017", 4 <unfinished ...>
+15781   <... fork resumed> )                     = 0
+15778   <... write resumed> )                    = 4
+15781   close(6 <unfinished ...>
+15778   write(4, "\020", 4 <unfinished ...>
+15781   <... close resumed> )                    = 0
+15778   <... write resumed> )                    = 4
+15781   read(5 <unfinished ...>
+15778   write(4, "\021", 4 <unfinished ...>
+15780   <... fork resumed> )                     = 15781
+15778   <... write resumed> )                    = 4
+15778   write(4, "\022", 4 <unfinished ...>
+15780   close(5 <unfinished ...>
+15779   <... read resumed> , "\004", 4)          = 4
+15779   read(3 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "\023", 4)                      = 4
+15779   <... read resumed> , "\005", 4)          = 4
+15778   write(4, "\024", 4 <unfinished ...>
+15779   write(5, "\005", 4 <unfinished ...>
+15780   <... close resumed> )                    = 0
+15778   <... write resumed> )                    = 4
+15778   write(4, "\025", 4 <unfinished ...>
+15780   read(4 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15780   <... read resumed> , "\005", 4)          = 4
+15778   write(4, "\026", 4 <unfinished ...>
+15780   write(6, "\005", 4 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "\027", 4 <unfinished ...>
+15781   <... read resumed> , "\005", 4)          = 4
+15781   sqrt(5, 0x7ffe2951bd8c, 4, 0x7f59d0828260 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15781   <... sqrt resumed> )                     = 5
+15778   write(4, "\030", 4 <unfinished ...>
+15781   pipe(0x7ffe2951bdd0 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15781   <... pipe resumed> )                     = 0
+15778   write(4, "\031", 4 <unfinished ...>
+15781   fork( <unfinished ...>
+15780   <... write resumed> )                    = 4
+15778   <... write resumed> )                    = 4
+15780   read(4 <unfinished ...>
+15778   write(4, "\032", 4 <unfinished ...>
+15782   <... fork resumed> )                     = 0
+15778   <... write resumed> )                    = 4
+15782   close(7 <unfinished ...>
+15778   write(4, "\033", 4 <unfinished ...>
+15782   <... close resumed> )                    = 0
+15778   <... write resumed> )                    = 4
+15782   read(6 <unfinished ...>
+15778   write(4, "\034", 4 <unfinished ...>
+15781   <... fork resumed> )                     = 15782
+15781   close(6 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "\035", 4 <unfinished ...>
+15781   <... close resumed> )                    = 0
+15781   read(5 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "\036", 4 <unfinished ...>
+15779   <... write resumed> )                    = 4
+15778   <... write resumed> )                    = 4
+15779   read(3 <unfinished ...>
+15778   write(4, "\037", 4 <unfinished ...>
+15779   <... read resumed> , "\006", 4)          = 4
+15778   <... write resumed> )                    = 4
+15779   read(3 <unfinished ...>
+15778   write(4, " ", 4 <unfinished ...>
+15779   <... read resumed> , "\a", 4)            = 4
+15778   <... write resumed> )                    = 4
+15779   write(5, "\a", 4 <unfinished ...>
+15778   write(4, "!", 4 <unfinished ...>
+15779   <... write resumed> )                    = 4
+15778   <... write resumed> )                    = 4
+15778   write(4, """, 4 <unfinished ...>
+15780   <... read resumed> , "\a", 4)            = 4
+15779   read(3 <unfinished ...>
+15780   write(6, "\a", 4 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "#", 4 <unfinished ...>
+15779   <... read resumed> , "\b", 4)            = 4
+15778   <... write resumed> )                    = 4
+15778   write(4, "$", 4 <unfinished ...>
+15781   <... read resumed> , "\a", 4)            = 4
+15781   write(7, "\a", 4 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "%", 4 <unfinished ...>
+15782   <... read resumed> , "\a", 4)            = 4
+15782   sqrt(6, 0x7ffe2951bd8c, 4, 0x7f59d0828260 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15782   <... sqrt resumed> )                     = 7
+15778   write(4, "&", 4 <unfinished ...>
+15782   pipe(0x7ffe2951bdd0 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15782   <... pipe resumed> )                     = 0
+15778   write(4, "'", 4 <unfinished ...>
+15782   fork( <unfinished ...>
+15778   <... write resumed> )                    = 4
+15781   <... write resumed> )                    = 4
+15778   write(4, "(", 4 <unfinished ...>
+15783   <... fork resumed> )                     = 0
+15778   <... write resumed> )                    = 4
+15783   close(8 <unfinished ...>
+15778   write(4, ")", 4 <unfinished ...>
+15782   <... fork resumed> )                     = 15783
+15782   close(7 <unfinished ...>
+15783   <... close resumed> )                    = 0
+15783   read(7 <unfinished ...>
+15782   <... close resumed> )                    = 0
+15781   read(5 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15782   read(6 <unfinished ...>
+15778   write(4, "*", 4)                         = 4
+15780   <... write resumed> )                    = 4
+15778   write(4, "+", 4 <unfinished ...>
+15780   read(4 <unfinished ...>
+15779   read(3 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, ",", 4 <unfinished ...>
+15779   <... read resumed> , "\t", 4)            = 4
+15779   write(5, "\t", 4 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "-", 4 <unfinished ...>
+15780   <... read resumed> , "\t", 4)            = 4
+15780   read(4 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, ".", 4 <unfinished ...>
+15779   <... write resumed> )                    = 4
+15779   read(3 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "/", 4 <unfinished ...>
+15779   <... read resumed> , "\n", 4)            = 4
+15779   read(3 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "0", 4 <unfinished ...>
+15779   <... read resumed> , "\v", 4)            = 4
+15779   write(5, "\v", 4 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "1", 4 <unfinished ...>
+15780   <... read resumed> , "\v", 4)            = 4
+15780   write(6, "\v", 4 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "2", 4 <unfinished ...>
+15780   <... write resumed> )                    = 4
+15780   read(4 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "3", 4 <unfinished ...>
+15781   <... read resumed> , "\v", 4)            = 4
+15778   <... write resumed> )                    = 4
+15779   <... write resumed> )                    = 4
+15778   write(4, "4", 4 <unfinished ...>
+15781   write(7, "\v", 4 <unfinished ...>
+15779   read(3 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "5", 4 <unfinished ...>
+15779   <... read resumed> , "\f", 4)            = 4
+15779   read(3 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "6", 4 <unfinished ...>
+15782   <... read resumed> , "\v", 4)            = 4
+15782   write(8, "\v", 4 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "7", 4 <unfinished ...>
+15783   <... read resumed> , "\v", 4)            = 4
+15783   sqrt(7, 0x7ffe2951bd8c, 4, 0x7f59d0828260 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15783   <... sqrt resumed> )                     = 11
+15778   write(4, "8", 4 <unfinished ...>
+15783   pipe(0x7ffe2951bdd0 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15783   <... pipe resumed> )                     = 0
+15778   write(4, "9", 4 <unfinished ...>
+15783   fork( <unfinished ...>
+15778   <... write resumed> )                    = 4
+15782   <... write resumed> )                    = 4
+15778   write(4, ":", 4 <unfinished ...>
+15782   read(6 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15784   <... fork resumed> )                     = 0
+15778   write(4, ";", 4 <unfinished ...>
+15784   close(9 <unfinished ...>
+15783   <... fork resumed> )                     = 15784
+15778   <... write resumed> )                    = 4
+15778   write(4, "<", 4 <unfinished ...>
+15784   <... close resumed> )                    = 0
+15784   read(8 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15783   close(8 <unfinished ...>
+15778   write(4, "=", 4 <unfinished ...>
+15783   <... close resumed> )                    = 0
+15778   <... write resumed> )                    = 4
+15783   read(7 <unfinished ...>
+15778   write(4, ">", 4)                         = 4
+15781   <... write resumed> )                    = 4
+15778   write(4, "?", 4 <unfinished ...>
+15781   read(5 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "@", 4 <unfinished ...>
+15779   <... read resumed> , "\r", 4)            = 4
+15779   write(5, "\r", 4 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "A", 4 <unfinished ...>
+15780   <... read resumed> , "\r", 4)            = 4
+15780   write(6, "\r", 4 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "B", 4 <unfinished ...>
+15781   <... read resumed> , "\r", 4)            = 4
+15781   write(7, "\r", 4 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "C", 4 <unfinished ...>
+15782   <... read resumed> , "\r", 4)            = 4
+15782   write(8, "\r", 4 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "D", 4 <unfinished ...>
+15783   <... read resumed> , "\r", 4)            = 4
+15783   write(9, "\r", 4 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "E", 4 <unfinished ...>
+15784   <... read resumed> , "\r", 4)            = 4
+15784   sqrt(8, 0x7ffe2951bd8c, 4, 0x7f59d0828260 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "F", 4 <unfinished ...>
+15784   <... sqrt resumed> )                     = 13
+15784   pipe(0x7ffe2951bdd0 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "G", 4 <unfinished ...>
+15784   <... pipe resumed> )                     = 0
+15784   fork( <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "H", 4 <unfinished ...>
+15785   <... fork resumed> )                     = 0
+15778   <... write resumed> )                    = 4
+15785   close(10 <unfinished ...>
+15778   write(4, "I", 4 <unfinished ...>
+15785   <... close resumed> )                    = 0
+15778   <... write resumed> )                    = 4
+15785   read(9 <unfinished ...>
+15778   write(4, "J", 4 <unfinished ...>
+15784   <... fork resumed> )                     = 15785
+15784   close(9 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "K", 4 <unfinished ...>
+15784   <... close resumed> )                    = 0
+15784   read(8 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "L", 4 <unfinished ...>
+15783   <... write resumed> )                    = 4
+15783   read(7 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "M", 4 <unfinished ...>
+15782   <... write resumed> )                    = 4
+15782   read(6 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "N", 4 <unfinished ...>
+15781   <... write resumed> )                    = 4
+15781   read(5 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "O", 4 <unfinished ...>
+15780   <... write resumed> )                    = 4
+15780   read(4 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "P", 4 <unfinished ...>
+15779   <... write resumed> )                    = 4
+15779   read(3 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "Q", 4 <unfinished ...>
+15779   <... read resumed> , "\016", 4)          = 4
+15779   read(3 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "R", 4 <unfinished ...>
+15779   <... read resumed> , "\017", 4)          = 4
+15779   write(5, "\017", 4 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "S", 4 <unfinished ...>
+15780   <... read resumed> , "\017", 4)          = 4
+15780   read(4 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "T", 4 <unfinished ...>
+15779   <... write resumed> )                    = 4
+15779   read(3 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "U", 4 <unfinished ...>
+15779   <... read resumed> , "\020", 4)          = 4
+15779   read(3 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "V", 4 <unfinished ...>
+15779   <... read resumed> , "\021", 4)          = 4
+15779   write(5, "\021", 4 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "W", 4 <unfinished ...>
+15780   <... read resumed> , "\021", 4)          = 4
+15780   write(6, "\021", 4 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "X", 4 <unfinished ...>
+15781   <... read resumed> , "\021", 4)          = 4
+15780   <... write resumed> )                    = 4
+15780   read(4 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15781   write(7, "\021", 4 <unfinished ...>
+15778   write(4, "Y", 4)                         = 4
+15778   write(4, "Z", 4 <unfinished ...>
+15782   <... read resumed> , "\021", 4)          = 4
+15782   write(8, "\021", 4 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "[", 4 <unfinished ...>
+15783   <... read resumed> , "\021", 4)          = 4
+15783   write(9, "\021", 4 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "\\", 4 <unfinished ...>
+15783   <... write resumed> )                    = 4
+15783   read(7 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15784   <... read resumed> , "\021", 4)          = 4
+15778   write(4, "]", 4 <unfinished ...>
+15784   write(10, "\021", 4 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "^", 4 <unfinished ...>
+15785   <... read resumed> , "\021", 4)          = 4
+15785   sqrt(9, 0x7ffe2951bd8c, 4, 0x7f59d0828260 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15785   <... sqrt resumed> )                     = 17
+15778   write(4, "_", 4 <unfinished ...>
+15785   close(10 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15785   <... close resumed> )                    = -1
+15778   write(4, "`", 4 <unfinished ...>
+15785   printf("%d %d %d\n", 221, 13, 17 <unfinished ...>
+15784   <... write resumed> )                    = 4
+15778   <... write resumed> )                    = 4
+15778   write(4, "a", 4 <unfinished ...>
+15784   read(8 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "b", 4 <unfinished ...>
+15785   <... printf resumed> )                   = 10
+15785   exit(0 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "c", 4)                         = 4
+15778   write(4, "d", 4 <no return ...>
+15785 +++ exited (status 0) +++
+15784 --- SIGCHLD (Child exited) ---
+15778   <... write resumed> )                    = 4
+15782   <... write resumed> )                    = 4
+15778   write(4, "e", 4 <unfinished ...>
+15782   read(6 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15781   <... write resumed> )                    = 4
+15778   write(4, "f", 4 <unfinished ...>
+15781   read(5 <unfinished ...>
+15779   <... write resumed> )                    = 4
+15778   <... write resumed> )                    = 4
+15779   read(3 <unfinished ...>
+15778   write(4, "g", 4 <unfinished ...>
+15779   <... read resumed> , "\022", 4)          = 4
+15778   <... write resumed> )                    = 4
+15779   read(3 <unfinished ...>
+15778   write(4, "h", 4 <unfinished ...>
+15779   <... read resumed> , "\023", 4)          = 4
+15778   <... write resumed> )                    = 4
+15779   write(5, "\023", 4 <unfinished ...>
+15778   write(4, "i", 4)                         = 4
+15780   <... read resumed> , "\023", 4)          = 4
+15778   write(4, "j", 4 <unfinished ...>
+15780   write(6, "\023", 4 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "k", 4 <unfinished ...>
+15781   <... read resumed> , "\023", 4)          = 4
+15781   write(7, "\023", 4 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "l", 4 <unfinished ...>
+15782   <... read resumed> , "\023", 4)          = 4
+15782   write(8, "\023", 4 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "m", 4 <unfinished ...>
+15783   <... read resumed> , "\023", 4)          = 4
+15783   write(9, "\023", 4 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "n", 4 <unfinished ...>
+15784   <... read resumed> , "\023", 4)          = 4
+15784   write(10, "\023", 4 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "o", 4 <no return ...>
+15784 --- SIGPIPE (Broken pipe) ---
+15784   <... write resumed> )                    = -1
+15784   close(10 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "p", 4 <unfinished ...>
+15784   <... close resumed> )                    = 0
+15784   close(8 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "q", 4 <unfinished ...>
+15784   <... close resumed> )                    = 0
+15784   getpid( <unfinished ...>
+15778   <... write resumed> )                    = 4
+15784   <... getpid resumed> )                   = 15784
+15778   write(4, "r", 4 <unfinished ...>
+15784   wait(0x7ffe2951bd90 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "s", 4 <unfinished ...>
+15784   <... wait resumed> )                     = 15785
+15784   exit(1 <unfinished ...>
+15783   <... write resumed> )                    = 4
+15778   <... write resumed> )                    = 4
+15778   write(4, "t", 4 <no return ...>
+15784 +++ exited (status 1) +++
+15783   read(7 <no return ...>
+15783 --- SIGCHLD (Child exited) ---
+15778   <... write resumed> )                    = 4
+15778   write(4, "u", 4 <unfinished ...>
+15782   <... write resumed> )                    = 4
+15782   read(6 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "v", 4 <unfinished ...>
+15781   <... write resumed> )                    = 4
+15781   read(5 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "w", 4 <unfinished ...>
+15780   <... write resumed> )                    = 4
+15780   read(4 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15779   <... write resumed> )                    = 4
+15778   write(4, "x", 4 <unfinished ...>
+15779   read(3 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15779   <... read resumed> , "\024", 4)          = 4
+15778   write(4, "y", 4 <unfinished ...>
+15779   read(3 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15779   <... read resumed> , "\025", 4)          = 4
+15778   write(4, "z", 4 <unfinished ...>
+15779   write(5, "\025", 4 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "{", 4 <unfinished ...>
+15780   <... read resumed> , "\025", 4)          = 4
+15779   <... write resumed> )                    = 4
+15779   read(3 <unfinished ...>
+15780   read(4 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "|", 4 <unfinished ...>
+15779   <... read resumed> , "\026", 4)          = 4
+15778   <... write resumed> )                    = 4
+15778   write(4, "}", 4 <unfinished ...>
+15779   read(3 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15779   <... read resumed> , "\027", 4)          = 4
+15778   write(4, "~", 4 <unfinished ...>
+15779   write(5, "\027", 4 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "\177", 4 <unfinished ...>
+15780   <... read resumed> , "\027", 4)          = 4
+15779   <... write resumed> )                    = 4
+15779   read(3 <unfinished ...>
+15780   write(6, "\027", 4 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "\200", 4 <unfinished ...>
+15781   <... read resumed> , "\027", 4)          = 4
+15778   <... write resumed> )                    = 4
+15781   write(7, "\027", 4 <unfinished ...>
+15778   write(4, "\201", 4)                      = 4
+15782   <... read resumed> , "\027", 4)          = 4
+15778   write(4, "\202", 4 <unfinished ...>
+15782   write(8, "\027", 4 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "\203", 4 <unfinished ...>
+15783   <... read resumed> , "\027", 4)          = 4
+15783   write(9, "\027", 4 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "\204", 4 <no return ...>
+15783 --- SIGPIPE (Broken pipe) ---
+15783   <... write resumed> )                    = -1
+15783   close(9 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "\205", 4 <unfinished ...>
+15783   <... close resumed> )                    = 0
+15783   close(7 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "\206", 4 <unfinished ...>
+15783   <... close resumed> )                    = 0
+15783   getpid( <unfinished ...>
+15778   <... write resumed> )                    = 4
+15783   <... getpid resumed> )                   = 15783
+15778   write(4, "\207", 4 <unfinished ...>
+15783   wait(0x7ffe2951bd90 <unfinished ...>
+15782   <... write resumed> )                    = 4
+15778   <... write resumed> )                    = 4
+15778   write(4, "\210", 4 <unfinished ...>
+15783   <... wait resumed> )                     = 15784
+15783   exit(2 <unfinished ...>
+15782   read(6 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "\211", 4 <no return ...>
+15783 +++ exited (status 2) +++
+15782 --- SIGCHLD (Child exited) ---
+15778   <... write resumed> )                    = 4
+15781   <... write resumed> )                    = 4
+15778   write(4, "\212", 4 <unfinished ...>
+15781   read(5 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15780   <... write resumed> )                    = 4
+15778   write(4, "\213", 4 <unfinished ...>
+15780   read(4 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "\214", 4 <unfinished ...>
+15779   <... read resumed> , "\030", 4)          = 4
+15779   read(3 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "\215", 4 <unfinished ...>
+15779   <... read resumed> , "\031", 4)          = 4
+15779   write(5, "\031", 4 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "\216", 4 <unfinished ...>
+15780   <... read resumed> , "\031", 4)          = 4
+15780   write(6, "\031", 4 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "\217", 4 <unfinished ...>
+15781   <... read resumed> , "\031", 4)          = 4
+15781   read(5 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "\220", 4 <unfinished ...>
+15780   <... write resumed> )                    = 4
+15780   read(4 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "\221", 4 <unfinished ...>
+15779   <... write resumed> )                    = 4
+15779   read(3 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "\222", 4 <unfinished ...>
+15779   <... read resumed> , "\032", 4)          = 4
+15779   read(3 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "\223", 4 <unfinished ...>
+15779   <... read resumed> , "\033", 4)          = 4
+15779   write(5, "\033", 4 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "\224", 4 <unfinished ...>
+15780   <... read resumed> , "\033", 4)          = 4
+15780   read(4 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "\225", 4 <unfinished ...>
+15779   <... write resumed> )                    = 4
+15779   read(3 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "\226", 4 <unfinished ...>
+15779   <... read resumed> , "\034", 4)          = 4
+15779   read(3 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "\227", 4 <unfinished ...>
+15779   <... read resumed> , "\035", 4)          = 4
+15779   write(5, "\035", 4 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "\230", 4 <unfinished ...>
+15780   <... read resumed> , "\035", 4)          = 4
+15780   write(6, "\035", 4 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "\231", 4 <unfinished ...>
+15781   <... read resumed> , "\035", 4)          = 4
+15781   write(7, "\035", 4 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "\232", 4 <unfinished ...>
+15781   <... write resumed> )                    = 4
+15781   read(5 <unfinished ...>
+15782   <... read resumed> , "\035", 4)          = 4
+15778   <... write resumed> )                    = 4
+15778   write(4, "\233", 4 <unfinished ...>
+15782   write(8, "\035", 4 <unfinished ...>
+15780   <... write resumed> )                    = 4
+15778   <... write resumed> )                    = 4
+15778   write(4, "\234", 4 <unfinished ...>
+15780   read(4 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "\235", 4 <no return ...>
+15782 --- SIGPIPE (Broken pipe) ---
+15779   <... write resumed> )                    = 4
+15779   read(3 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15782   <... write resumed> )                    = -1
+15778   write(4, "\236", 4 <unfinished ...>
+15782   close(8 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "\237", 4 <unfinished ...>
+15782   <... close resumed> )                    = 0
+15782   close(6 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15779   <... read resumed> , "\036", 4)          = 4
+15778   write(4, "\240", 4 <unfinished ...>
+15782   <... close resumed> )                    = 0
+15778   <... write resumed> )                    = 4
+15782   getpid( <unfinished ...>
+15778   write(4, "\241", 4 <unfinished ...>
+15782   <... getpid resumed> )                   = 15782
+15782   wait(0x7ffe2951bd90 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "\242", 4 <unfinished ...>
+15782   <... wait resumed> )                     = 15783
+15782   exit(3 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15779   read(3 <unfinished ...>
+15778   write(4, "\243", 4)                      = 4
+15782 +++ exited (status 3) +++
+15778   write(4, "\244", 4 <no return ...>
+15781 --- SIGCHLD (Child exited) ---
+15779   <... read resumed> , "\037", 4)          = 4
+15778   <... write resumed> )                    = 4
+15779   write(5, "\037", 4 <unfinished ...>
+15778   write(4, "\245", 4)                      = 4
+15780   <... read resumed> , "\037", 4)          = 4
+15778   write(4, "\246", 4 <unfinished ...>
+15780   write(6, "\037", 4 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "\247", 4 <unfinished ...>
+15781   <... read resumed> , "\037", 4)          = 4
+15781   write(7, "\037", 4 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "\250", 4 <no return ...>
+15781 --- SIGPIPE (Broken pipe) ---
+15781   <... write resumed> )                    = -1
+15781   close(7 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "\251", 4 <unfinished ...>
+15781   <... close resumed> )                    = 0
+15781   close(5 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "\252", 4 <unfinished ...>
+15781   <... close resumed> )                    = 0
+15781   getpid( <unfinished ...>
+15778   <... write resumed> )                    = 4
+15781   <... getpid resumed> )                   = 15781
+15778   write(4, "\253", 4 <unfinished ...>
+15781   wait(0x7ffe2951bd90 <unfinished ...>
+15780   <... write resumed> )                    = 4
+15778   <... write resumed> )                    = 4
+15778   write(4, "\254", 4 <unfinished ...>
+15781   <... wait resumed> )                     = 15782
+15781   exit(4 <unfinished ...>
+15780   read(4 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "\255", 4 <no return ...>
+15781 +++ exited (status 4) +++
+15780 --- SIGCHLD (Child exited) ---
+15778   <... write resumed> )                    = 4
+15779   <... write resumed> )                    = 4
+15778   write(4, "\256", 4 <unfinished ...>
+15779   read(3 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15779   <... read resumed> , " ", 4)             = 4
+15778   write(4, "\257", 4 <unfinished ...>
+15779   read(3 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15779   <... read resumed> , "!", 4)             = 4
+15778   write(4, "\260", 4 <unfinished ...>
+15779   write(5, "!", 4 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "\261", 4 <unfinished ...>
+15780   <... read resumed> , "!", 4)             = 4
+15780   read(4 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15779   <... write resumed> )                    = 4
+15778   write(4, "\262", 4 <unfinished ...>
+15779   read(3 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15779   <... read resumed> , """, 4)             = 4
+15778   write(4, "\263", 4 <unfinished ...>
+15779   read(3 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15779   <... read resumed> , "#", 4)             = 4
+15778   write(4, "\264", 4 <unfinished ...>
+15779   write(5, "#", 4 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "\265", 4 <unfinished ...>
+15780   <... read resumed> , "#", 4)             = 4
+15780   write(6, "#", 4 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "\266", 4 <no return ...>
+15780 --- SIGPIPE (Broken pipe) ---
+15780   <... write resumed> )                    = -1
+15780   close(6 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "\267", 4 <unfinished ...>
+15780   <... close resumed> )                    = 0
+15780   close(4 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "\270", 4 <unfinished ...>
+15780   <... close resumed> )                    = 0
+15780   getpid( <unfinished ...>
+15778   <... write resumed> )                    = 4
+15780   <... getpid resumed> )                   = 15780
+15778   write(4, "\271", 4 <unfinished ...>
+15780   wait(0x7ffe2951bd90 <unfinished ...>
+15779   <... write resumed> )                    = 4
+15778   <... write resumed> )                    = 4
+15778   write(4, "\272", 4 <unfinished ...>
+15780   <... wait resumed> )                     = 15781
+15780   exit(5 <unfinished ...>
+15779   read(3 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "\273", 4 <no return ...>
+15780 +++ exited (status 5) +++
+15779 --- SIGCHLD (Child exited) ---
+15778   <... write resumed> )                    = 4
+15778   write(4, "\274", 4 <unfinished ...>
+15779   <... read resumed> , "$", 4)             = 4
+15779   read(3 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "\275", 4 <unfinished ...>
+15779   <... read resumed> , "%", 4)             = 4
+15779   write(5, "%", 4 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "\276", 4 <no return ...>
+15779 --- SIGPIPE (Broken pipe) ---
+15779   <... write resumed> )                    = -1
+15779   close(5 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "\277", 4 <unfinished ...>
+15779   <... close resumed> )                    = 0
+15779   close(3 <unfinished ...>
+15778   <... write resumed> )                    = 4
+15778   write(4, "\300", 4 <unfinished ...>
+15779   <... close resumed> )                    = 0
+15779   getpid( <no return ...>
+15778 --- SIGPIPE (Broken pipe) ---
+15779   <... getpid resumed> )                   = 15779
+15778   <... write resumed> )                    = -1
+15779   wait(0x7ffe2951bd90 <unfinished ...>
+15778   close(4)                                 = 0
+15779   <... wait resumed> )                     = 15780
+15778   wait(0x7ffe2951bd90 <unfinished ...>
+15779   exit(6 <no return ...>
+15779 +++ exited (status 6) +++
+15778 --- SIGCHLD (Child exited) ---
+15778   <... wait resumed> )                     = 15779
+15778   printf("Number of filters = %d\n", 6)    = 22
+15778 +++ exited (status 0) +++

@@ -1,0 +1,55 @@
+F.F.FFF..
+======================================================================
+FAIL: test_argument_of_zero (__main__.ArgumentsTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/peters43/209_18S/admin/grading/a3/marking_scripts/test_helpers.py", line 184, in _t
+    self.assertEqual(stderr, expected_stderr)
+AssertionError: '' != 'Usage:\n\tpfact n'
++ Usage:
++ 	pfact n
+
+======================================================================
+FAIL: test_mixed_arg_78a (__main__.ArgumentsTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/peters43/209_18S/admin/grading/a3/marking_scripts/test_helpers.py", line 184, in _t
+    self.assertEqual(stderr, expected_stderr)
+AssertionError: '' != 'Usage:\n\tpfact n'
++ Usage:
++ 	pfact n
+
+======================================================================
+FAIL: test_non_integer_arg (__main__.ArgumentsTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/peters43/209_18S/admin/grading/a3/marking_scripts/test_helpers.py", line 184, in _t
+    self.assertEqual(stderr, expected_stderr)
+AssertionError: '' != 'Usage:\n\tpfact n'
++ Usage:
++ 	pfact n
+
+======================================================================
+FAIL: test_non_numeric_arg (__main__.ArgumentsTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/peters43/209_18S/admin/grading/a3/marking_scripts/test_helpers.py", line 184, in _t
+    self.assertEqual(stderr, expected_stderr)
+AssertionError: '' != 'Usage:\n\tpfact n'
++ Usage:
++ 	pfact n
+
+======================================================================
+FAIL: test_space_in_arg (__main__.ArgumentsTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/peters43/209_18S/admin/grading/a3/marking_scripts/test_helpers.py", line 184, in _t
+    self.assertEqual(stderr, expected_stderr)
+AssertionError: '' != 'Usage:\n\tpfact n'
++ Usage:
++ 	pfact n
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.012s
+
+FAILED (failures=5)

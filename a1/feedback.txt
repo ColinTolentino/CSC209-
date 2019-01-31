@@ -1,0 +1,17 @@
+count_large (3 / 6)
+  failed test_ignore_directory_no_perm_arg
+  failed test_ignore_directory_with_perm_arg
+  failed test_size_all_larger
+  failed test_size_some_larger
+  failed test_size_some_larger_perms_exact_match
+  failed test_size_some_larger_perms_relaxed_match
+
+check_sin (3 / 3)
+
+
+populate_array (3 / 3)
+
+
+validate_sin (2 / 3)
+  failed test_invalid
+11.00 / 15

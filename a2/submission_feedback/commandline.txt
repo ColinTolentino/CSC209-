@@ -1,0 +1,21 @@
+...FF...
+======================================================================
+FAIL: test_cmdline_nonnumeric_d_flag (__main__.TestCommandline)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/stud/cslec/209/marking/grading/a1/marking_scripts/test_helpers.py", line 193, in _t
+    self.assertEqual(returncode, expected_status)
+AssertionError: 0 != 1
+
+======================================================================
+FAIL: test_cmdline_nonnumeric_pid (__main__.TestCommandline)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/stud/cslec/209/marking/grading/a1/marking_scripts/test_helpers.py", line 193, in _t
+    self.assertEqual(returncode, expected_status)
+AssertionError: -11 != 1
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.927s
+
+FAILED (failures=2)

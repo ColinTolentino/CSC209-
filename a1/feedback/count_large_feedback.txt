@@ -1,0 +1,71 @@
+.FFF...FF.F
+======================================================================
+FAIL: test_ignore_directory_no_perm_arg (__main__.TestCountLarge)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/stud/cslec/209/marking/grading/a1/marking_scripts/test_helpers.py", line 190, in _t
+    self.assertEqual(stdout, expected_stdout)
+AssertionError: '1' != '0'
+- 1
++ 0
+
+
+======================================================================
+FAIL: test_ignore_directory_with_perm_arg (__main__.TestCountLarge)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/stud/cslec/209/marking/grading/a1/marking_scripts/test_helpers.py", line 190, in _t
+    self.assertEqual(stdout, expected_stdout)
+AssertionError: '1' != '0'
+- 1
++ 0
+
+
+======================================================================
+FAIL: test_size_all_larger (__main__.TestCountLarge)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/stud/cslec/209/marking/grading/a1/marking_scripts/test_helpers.py", line 190, in _t
+    self.assertEqual(stdout, expected_stdout)
+AssertionError: '7' != '4'
+- 7
++ 4
+
+
+======================================================================
+FAIL: test_size_some_larger (__main__.TestCountLarge)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/stud/cslec/209/marking/grading/a1/marking_scripts/test_helpers.py", line 190, in _t
+    self.assertEqual(stdout, expected_stdout)
+AssertionError: '6' != '3'
+- 6
++ 3
+
+
+======================================================================
+FAIL: test_size_some_larger_perms_exact_match (__main__.TestCountLarge)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/stud/cslec/209/marking/grading/a1/marking_scripts/test_helpers.py", line 190, in _t
+    self.assertEqual(stdout, expected_stdout)
+AssertionError: '0' != '1'
+- 0
++ 1
+
+
+======================================================================
+FAIL: test_size_some_larger_perms_relaxed_match (__main__.TestCountLarge)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/stud/cslec/209/marking/grading/a1/marking_scripts/test_helpers.py", line 190, in _t
+    self.assertEqual(stdout, expected_stdout)
+AssertionError: '1' != '2'
+- 1
++ 2
+
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.252s
+
+FAILED (failures=6)
