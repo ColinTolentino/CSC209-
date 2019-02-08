@@ -1,0 +1,37 @@
+===== Question 1 =====
+B and E are printed more than once.
+===== Question 2 =====
+//I know that A always comes first since it is before the fork call 
+and every letter from a child process only occurs after the A//
+//
+B D E IS ORDER OF PARENT EXECUTION
+B C E IS ORDER OF CHILD EXECUTION
+//
+
+ABDEBCE //if parent executes before child does
+ABCEBDE //if parent executes after child
+
+//If parent executes between child execution
+ABBDECE
+ABCBDEE
+//If child executes between parent execution
+ABBCEDE
+ABDBCEE
+//Other possibilities if parent and child execute at the same time.
+ABBDCEE
+ABBCDEE
+ABDBECE
+ABCBEDE
+
+Total orderings = 10
+===== Question 3 =====
+16
+===== Question 4 =====
+23561 -> 23578 -> 23579 -> 23582
+23561 -> 23578 -> 23580 -> 23583
+1 -> 23581
+1 -> 23580
+1 -> 23579
+1 -> 23582
+1 -> 23584
+1 -> 23585

@@ -1,0 +1,5 @@
+script displays '- / -' when all directories and files present
+output received:  a1: - / - a2: - / - a3: - / - a4: - / - w1: 1 / 3 w2: 1 / 3 w3: 1 / 3 w4: 1 / 3 w5: 1 / 3 w6: 1 / 3 w7: 1 / 3 w8: 1 / 3 w9: 1 / 3 w10: 1 / 3 w11: 1 / 3 Assignment Total: 0 / 0 Lab Total: 11 / 33
+output incorrect when some directories or files missing
+output received:  a1: - / - a2: - / - a3: - / - a4: - / - w1: 1 / 3 w2: 1 / 3 w3: 1 / 3 w4: - / - w5: 1 / 3 w6: 1 / 3 w7: - / - w8: 1 / 3 w9: 1 / 3 w10: 1 / 3 w11: 1 / 3 Assignment Total: 0 / 0 Lab Total: 9 / 27
+1 / 3
