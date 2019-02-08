@@ -1,0 +1,10 @@
+Script started on Fri 23 Mar 2018 05:11:56 PM EDT
+tolent37@dh2020pc02:~/209/w10$ run [K[K[K[Kgdb randclient[K[K[K[K[K[K[K[K[K[K[K[K[K[K./randclient 123[K7.0.0.1
+connect: Connection refused
+tolent37@dh2020pc02:~/209/w10$ ./randclient 127.0.0.1
+connect: Connection refused
+tolent37@dh2020pc02:~/209/w10$ ./randclient 127.0.0.1
+tolent37@dh2020pc02:~/209/w10$ ./randclient 127.0.0.1[Kexit
+exit
+
+Script done on Fri 23 Mar 2018 05:28:50 PM EDT

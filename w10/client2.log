@@ -1,0 +1,101 @@
+Script started on Fri 23 Mar 2018 05:33:39 PM EDT
+tolent37@dh2020pc02:~/209/w10$ gdb randclient
+GNU gdb (Ubuntu 7.11.1-0ubuntu1~16.5) 7.11.1
+Copyright (C) 2016 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from randclient...done.
+(gdb) break main
+Breakpoint 1 at 0x400b45: file randclient.c, line 24.
+(gdb) run 127.0.0.1
+Starting program: /student/tolent37/209/w10/randclient 127.0.0.1
+
+Breakpoint 1, main (argc=2, argv=0x7fffffffe308) at randclient.c:24
+24	    if (argc != 2) {
+(gdb) run 127.0.0.1[C[C[C[C[C[C[Knext
+29	    int soc = connect_to_server(PORT, argv[1]);
+(gdb) next
+connect: Connection refused
+[Inferior 1 (process 24252) exited with code 01]
+(gdb) next
+The program is not being run.
+(gdb) run
+Starting program: /student/tolent37/209/w10/randclient 127.0.0.1
+
+Breakpoint 1, main (argc=2, argv=0x7fffffffe308) at randclient.c:24
+24	    if (argc != 2) {
+(gdb) runnext
+29	    int soc = connect_to_server(PORT, argv[1]);
+(gdb) next
+connect: Connection refused
+[Inferior 1 (process 24368) exited with code 01]
+(gdb) next
+The program is not being run.
+(gdb) run
+Starting program: /student/tolent37/209/w10/randclient 127.0.0.1
+
+Breakpoint 1, main (argc=2, argv=0x7fffffffe308) at randclient.c:24
+24	    if (argc != 2) {
+(gdb) run
+The program being debugged has been started already.
+Start it from the beginning? (y or n) n
+Program not restarted.
+(gdb) runnext
+29	    int soc = connect_to_server(PORT, argv[1]);
+(gdb) next
+31	    write_random_pieces(soc, MESSAGE, TIMES);
+(gdb) next
+33	    close(soc);
+(gdb) next
+34	    return 0;
+(gdb) next
+35	}
+(gdb) next
+__libc_start_main (main=0x400b36 <main>, argc=2, argv=0x7fffffffe308, 
+    init=<optimized out>, fini=<optimized out>, rtld_fini=<optimized out>, 
+    stack_end=0x7fffffffe2f8) at ../csu/libc-start.c:325
+325	../csu/libc-start.c: No such file or directory.
+(gdb) next
+[Inferior 1 (process 24369) exited normally]
+(gdb) next
+The program is not being run.
+(gdb) run
+Starting program: /student/tolent37/209/w10/randclient 127.0.0.1
+
+Breakpoint 1, main (argc=2, argv=0x7fffffffe308) at randclient.c:24
+24	    if (argc != 2) {
+(gdb) runnext
+29	    int soc = connect_to_server(PORT, argv[1]);
+(gdb) next[1Prunnext
+31	    write_random_pieces(soc, MESSAGE, TIMES);
+(gdb) next
+33	    close(soc);
+(gdb) next
+34	    return 0;
+(gdb) next
+35	}
+(gdb) next
+__libc_start_main (main=0x400b36 <main>, argc=2, argv=0x7fffffffe308, 
+    init=<optimized out>, fini=<optimized out>, rtld_fini=<optimized out>, 
+    stack_end=0x7fffffffe2f8) at ../csu/libc-start.c:325
+325	../csu/libc-start.c: No such file or directory.
+(gdb) quit
+A debugging session is active.
+
+	Inferior 1 [process 24391] will be killed.
+
+Quit anyway? (y or n) y
+tolent37@dh2020pc02:~/209/w10$ exit
+exit
+
+Script done on Fri 23 Mar 2018 05:43:35 PM EDT
